@@ -1,0 +1,22 @@
+{
+  "name": "react-test-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Shanmugam-Palani/react-test-app.git",
+  "author": "shanmugam.p <shanmugam.p@zohocorp.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && parcel build index.html",
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "~1.12.4"
+  }
+}

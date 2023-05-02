@@ -6,7 +6,7 @@
   "author": "shanmugam.p <shanmugam.p@zohocorp.com>",
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf dist && parcel build index.html",
+    "build": "rm -rf dist && echo $plainaws && parcel build index.html",
     "start": "parcel index.html"
   },
   "dependencies": {
